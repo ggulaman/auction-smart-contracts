@@ -1,13 +1,21 @@
-# Sample Hardhat Project
+# ERC20 Auction Smart Contracts
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
+## Configuration
+1. Clone the repository on your local:
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+$ git clone https://github.com/ggulaman/auction-smart-contracts.git
+```
+2. Install dependencies:
+```shell
+$ npm install
+```
+
+## Running Test Cases
+1. Running Unit Tests:
+```shell
+$ npm run test
+```
+2. Running Unit Tests Coverage:
+```shell
+$ npm run test:coverage
 ```
