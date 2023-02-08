@@ -1,13 +1,8 @@
 require("@nomicfoundation/hardhat-toolbox");
 require("@nomicfoundation/hardhat-chai-matchers");
 require("@nomiclabs/hardhat-ethers");
-//require("@nomiclabs/hardhat-waffle");
 require('dotenv').config()
 require('solidity-coverage')
-
-// const KOVAN_RPM_URL = process.env.KOVAN_RPC_URL
-// const PRIVATE_KEY = process.env.PRIVATE_KEY
-// const PRIVATE_KEY2 = process.env.PRIVATE_KEY2
 
 /**
  * @type import('hardhat/config').HardhatUserConfig
@@ -36,7 +31,7 @@ module.exports = {
     sources: "./contracts",
     tests: "./test",
     cache: "./cache",
-    artifacts: "./social-auction-ui/src/artifacts"
+    artifacts: "./artifacts"
   },
   mocha: {
     timeout: 300000
