@@ -19,3 +19,12 @@ $ npm run test
 ```shell
 $ npm run test:coverage
 ```
+## Hardhat Commands
+1. Running Local EVM Node:
+```shell
+$ npx hardhat node
+```
+2. Deploying Smart Contracts to Local EVM Node:
+```shell
+$ npm run deploy
+```
